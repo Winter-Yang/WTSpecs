@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'WTSpecs'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary       = '杨雯德iOS组件库测试'
   s.homepage      = 'https://github.com/Winter-Yang/WTSpecs.git'
   s.license           = { :type => 'MIT', :file => 'LICENSE' }
@@ -19,4 +19,5 @@ Pod::Spec.new do |s|
   sq.source_files = 'Pod/Classes/QFQTools/**/*'
   sq.public_header_files = 'Pod/Classes/QFQTools/**/*.h'
   end
+
 end
