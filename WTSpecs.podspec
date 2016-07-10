@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   sp.dependency 'AFNetworking', '~> 3.1.0'
   end
 
-  s.subspec 'QFQTools' do |sp|
-  sp.source_files = 'Pod/Classes/QFQTools/**/*'
-  sp.public_header_files = 'Pod/Classes/QFQTools/**/*.h'
+  s.subspec 'QFQTools' do |sq|
+  sq.source_files = 'Pod/Classes/QFQTools/**/*'
+  sq.public_header_files = 'Pod/Classes/QFQTools/**/*.h'
   end
 end
